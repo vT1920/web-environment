@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/vT1920/web-environment/static/css/main.183bda5f.css",
+    "main.js": "/vT1920/web-environment/static/js/main.c2c361d2.js",
+    "static/js/787.0260eda2.chunk.js": "/vT1920/web-environment/static/js/787.0260eda2.chunk.js",
+    "static/media/ic-face-green.svg": "/vT1920/web-environment/static/media/ic-face-green.0d9917221d75aaeb65b70c9788cd507a.svg",
+    "static/media/ic-face-orange.svg": "/vT1920/web-environment/static/media/ic-face-orange.ced8dbd8450df587ea4950c3567b3402.svg",
+    "static/media/ic-face-red.svg": "/vT1920/web-environment/static/media/ic-face-red.d9b273d2b5b75065643175a49a3f8c0c.svg",
+    "static/media/ic-face-yellow.svg": "/vT1920/web-environment/static/media/ic-face-yellow.5d32eb542b1b7f36aa2a5e5ec39598b7.svg",
+    "index.html": "/vT1920/web-environment/index.html",
+    "main.183bda5f.css.map": "/vT1920/web-environment/static/css/main.183bda5f.css.map",
+    "main.c2c361d2.js.map": "/vT1920/web-environment/static/js/main.c2c361d2.js.map",
+    "787.0260eda2.chunk.js.map": "/vT1920/web-environment/static/js/787.0260eda2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.183bda5f.css",
+    "static/js/main.c2c361d2.js"
+  ]
+}

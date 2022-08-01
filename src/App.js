@@ -16,14 +16,14 @@ function App() {
 		<Router>
 			<div className="App">
 				<Routes>
-					<Route exact path="/home" element={<Navigate to="/" />} />
+					<Route exact path="/web-enviroment/home" element={<Navigate to="/web-enviroment" />} />
 
-					<Route path="/login" element={<Login />} />
+					<Route path="/web-enviroment/login" element={<Login />} />
 
-					<Route path="/register" element={<Login isRegister={true} />} />
+					<Route path="/web-enviroment/register" element={<Login isRegister={true} />} />
 
-					<Route exact path="/" element={<ProtectedRoute />}>
-						<Route exact path="/" element={<HomePage />} />
+					<Route exact path="/web-enviroment" element={<ProtectedRoute />}>
+						<Route exact path="/web-enviroment" element={<HomePage />} />
 					</Route>
 
 					<Route path="*" element={<NotFoundPage />} />

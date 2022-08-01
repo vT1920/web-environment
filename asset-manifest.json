@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/web-environment/static/css/main.183bda5f.css",
-    "main.js": "/web-environment/static/js/main.38bdbec5.js",
+    "main.js": "/web-environment/static/js/main.ae6febf6.js",
     "static/js/787.0260eda2.chunk.js": "/web-environment/static/js/787.0260eda2.chunk.js",
     "static/media/ic-face-green.svg": "/web-environment/static/media/ic-face-green.0d9917221d75aaeb65b70c9788cd507a.svg",
     "static/media/ic-face-orange.svg": "/web-environment/static/media/ic-face-orange.ced8dbd8450df587ea4950c3567b3402.svg",
@@ -9,11 +9,11 @@
     "static/media/ic-face-yellow.svg": "/web-environment/static/media/ic-face-yellow.5d32eb542b1b7f36aa2a5e5ec39598b7.svg",
     "index.html": "/web-environment/index.html",
     "main.183bda5f.css.map": "/web-environment/static/css/main.183bda5f.css.map",
-    "main.38bdbec5.js.map": "/web-environment/static/js/main.38bdbec5.js.map",
+    "main.ae6febf6.js.map": "/web-environment/static/js/main.ae6febf6.js.map",
     "787.0260eda2.chunk.js.map": "/web-environment/static/js/787.0260eda2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.183bda5f.css",
-    "static/js/main.38bdbec5.js"
+    "static/js/main.ae6febf6.js"
   ]
 }

@@ -1,0 +1,26 @@
+.form-container {
+	background-color: #fff;
+	width: 500px;
+	min-height: 400px;
+	padding: 16px;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+	.form-title {
+		padding-inline: 20px;
+		margin-bottom: 16px;
+		font-size: 40px;
+		color: #fff;
+
+		background-color: #1890ff;
+		// background-color: #f85252;
+		margin: -16px -16px 16px -16px;
+		border-radius: 10px 10px 0px 0px;
+	}
+}

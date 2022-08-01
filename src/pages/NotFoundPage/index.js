@@ -17,7 +17,7 @@ function NotFoundPage(props) {
 					title="404"
 					subTitle="Trang bạn đang truy cập không tồn tại."
 					extra={
-						<Button type="primary" onClick={() => navigate("/web-enviroment")}>
+						<Button type="primary" onClick={() => navigate("/")}>
 							Trang chủ
 						</Button>
 					}

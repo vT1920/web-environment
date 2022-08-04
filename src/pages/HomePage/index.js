@@ -91,12 +91,6 @@ function HomePage() {
 
 			const listData = [
 				{
-					property: "CO",
-					data: listCO,
-					borderColor: "rgba(255, 99, 132, 1)",
-					backgroundColor: "rgba(255, 99, 132, 0.5)",
-				},
-				{
 					property: "PM2.5",
 					data: listD,
 					borderColor: "rgba(54, 162, 235, 1)",
@@ -107,6 +101,18 @@ function HomePage() {
 					data: listD10,
 					borderColor: "rgba(75, 192, 192, 1)",
 					backgroundColor: "rgba(75, 192, 192, 0.5)",
+				},
+				{
+					property: "CO",
+					data: listCO,
+					borderColor: "rgba(255, 99, 132, 1)",
+					backgroundColor: "rgba(255, 99, 132, 0.5)",
+				},
+				{
+					property: "GAS",
+					data: getDataByProperty(list, "GAS"),
+					borderColor: "rgba(153, 102, 255, 1)",
+					backgroundColor: "rgba(153, 102, 255, 0.5)",
 				},
 				{
 					property: "Humidity",
@@ -120,12 +126,7 @@ function HomePage() {
 					borderColor: "rgba(54, 162, 235, 1)",
 					backgroundColor: "rgba(54, 162, 235, 0.5)",
 				},
-				{
-					property: "GAS",
-					data: getDataByProperty(list, "GAS"),
-					borderColor: "rgba(153, 102, 255, 1)",
-					backgroundColor: "rgba(153, 102, 255, 0.5)",
-				},
+				
 			];
 
 			setListData(listData);
@@ -229,7 +230,9 @@ function HomePage() {
 			title: "Chất gây ô nhiễm",
 			dataIndex: "name",
 			key: "name",
-			render: (text) => <a style={{ pointerEvents: "none" }}>{text}</a>,
+			render: (text) => {
+				return <a style={{ pointerEvents: "none" }}>{text === 'D' ? 'PM2.5' : text === 'D10' ? 'PM10' : text}</a>
+			}
 		},
 		{
 			title: "Nồng độ",
